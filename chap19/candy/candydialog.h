@@ -2,7 +2,7 @@
 #define CANDYDIALOG_H
 
 #include <QDialog>
-#include <QWidgets>
+#include <QtWidgets>
 
 class QCheckBox;
 class QComboBox;
