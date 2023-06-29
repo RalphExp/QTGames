@@ -1,4 +1,8 @@
-#include <QtGui>
+#include <QWidget>
+#include <QMessageBox>
+#include <QApplication>
+#include <QClipboard>
+#include <QFile>
 
 #include "cell.h"
 #include "spreadsheet.h"
