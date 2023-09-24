@@ -1,4 +1,13 @@
-#include <QtGui>
+#include <QWidget>
+#include <QFont>
+#include <QStatusBar>
+#include <QToolBar>
+#include <QMenuBar>
+#include <QMessageBox>
+#include <QFileInfo>
+#include <QSettings>
+#include <QFileDialog>
+#include <QCloseEvent>
 
 #include "finddialog.h"
 #include "gotocelldialog.h"
