@@ -1,4 +1,10 @@
-#include <QtGui>
+#include <QWidget>
+#include <QToolButton>
+#include <QPainter>
+#include <QStylePainter>
+#include <QStyleOptionFocusRect>
+#include <QWheelEvent>
+
 #include <cmath>
 
 #include "plotter.h"

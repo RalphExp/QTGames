@@ -1,5 +1,20 @@
-#include <QtGui>
-#include <QtSql>
+#include <QWidget>
+#include <QSplitter>
+#include <QPushButton>
+#include <QDialogButtonBox>
+#include <QVBoxLayout>
+#include <QTableWidget>
+#include <QLabel>
+#include <QMessageBox>
+#include <QHeaderView>
+
+#include <QtSql/QSql>
+#include <QtSql/QSqlDatabase>
+#include <QtSql/QSqlRecord>
+#include <QtSql/QSqlQuery>
+#include <QtSql/QSqlTableModel>
+#include <QtSql/QSqlRelationalTableModel>
+#include <QtSql/QSqlRelationalDelegate>
 
 #include "employeeform.h"
 #include "mainform.h"

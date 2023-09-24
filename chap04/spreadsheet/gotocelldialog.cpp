@@ -1,4 +1,5 @@
-#include <QtGui>
+#include <QWidget>
+#include <QPushButton>
 
 #include "gotocelldialog.h"
 

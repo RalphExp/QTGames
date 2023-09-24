@@ -1,5 +1,18 @@
-#include <QtGui>
-#include <QtSql>
+#include <QWidget>
+#include <QDateEdit>
+#include <QLineEdit>
+#include <QLabel>
+#include <QGridLayout>
+#include <QPushButton>
+#include <QDialogButtonBox>
+#include <QComboBox>
+#include <QDataWidgetMapper>
+
+#include <QtSql/QSql>
+#include <QtSql/QSqlRecord>
+#include <QtSql/QSqlTableModel>
+#include <QtSql/QSqlRelationalTableModel>
+#include <QtSql/QSqlRelationalDelegate>
 
 #include "employeeform.h"
 
