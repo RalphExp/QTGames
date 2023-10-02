@@ -3,3 +3,4 @@ CONFIG       += exceptions
 HEADERS       = oventimer.h
 SOURCES       = main.cpp \
                 oventimer.cpp
+QT           += widgets

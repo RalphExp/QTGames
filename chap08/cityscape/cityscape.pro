@@ -8,3 +8,4 @@ SOURCES       = annotation.cpp \
                 cityscape.cpp \
                 cityview.cpp \
                 main.cpp
+QT           += widgets gui

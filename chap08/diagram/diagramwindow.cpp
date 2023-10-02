@@ -1,4 +1,11 @@
-#include <QtGui>
+#include <QWidget>
+#include <QGraphicsScene>
+#include <QGraphicsView>
+#include <QColorDialog>
+#include <QClipboard>
+#include <QToolBar>
+#include <QMenu>
+#include <QMenuBar>
 
 #include "diagramwindow.h"
 #include "link.h"

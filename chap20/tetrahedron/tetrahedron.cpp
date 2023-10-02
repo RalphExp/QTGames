@@ -1,5 +1,6 @@
 #include <QtGui>
 #include <QtOpenGL>
+#include <GL/glu.h>
 
 #include "tetrahedron.h"
 

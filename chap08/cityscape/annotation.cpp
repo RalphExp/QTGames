@@ -1,5 +1,9 @@
-#include <QtGui>
+#include <QWidget>
 #include <cmath>
+#include <QStyleOptionGraphicsItem>
+
+#include <QPainter>
+#include <QApplication>
 
 #include "annotation.h"
 

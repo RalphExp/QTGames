@@ -1,4 +1,11 @@
-#include <QtGui>
+#include <QWidget>
+#include <QLineEdit>
+#include <QInputDialog>
+#include <QStyleOptionGraphicsItem>
+#include <QGraphicsSceneMouseEvent>
+
+#include <QPainter>
+#include <QFontMetricsF>
 
 #include "link.h"
 #include "node.h"
@@ -131,7 +138,7 @@ QVariant Node::itemChange(GraphicsItemChange change,
 QRectF Node::outlineRect() const
 {
     const int Padding = 8;
-    QFontMetricsF metrics = qApp->font();
+    QFontMetricsF metrics(qApp->font());
     QRectF rect = metrics.boundingRect(myText);
     rect.adjust(-Padding, -Padding, +Padding, +Padding);
     rect.translate(-rect.center());

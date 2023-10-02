@@ -11,7 +11,7 @@ IconEditor::IconEditor(QWidget *parent)
     setSizePolicy(QSizePolicy::Minimum, QSizePolicy::Minimum);
 
     curColor = Qt::black;
-    zoom = 8;
+    zoom = 16;
 
     image = QImage(16, 16, QImage::Format_ARGB32);
     image.fill(qRgba(0, 0, 0, 0));
