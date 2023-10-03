@@ -8,6 +8,19 @@ IconEditorPlugin::IconEditorPlugin(QObject *parent)
 {
 }
 
+bool IconEditorPlugin::isInitialized() const
+{
+    return initialized;
+}
+
+void IconEditorPlugin::initialize(QDesignerFormEditorInterface *core)
+{
+    if (initialized)
+        return;
+
+    initialized = true;
+}
+
 QString IconEditorPlugin::name() const
 {
     return "IconEditor";
@@ -50,4 +63,4 @@ QWidget *IconEditorPlugin::createWidget(QWidget *parent)
     return new IconEditor(parent);
 }
 
-Q_EXPORT_PLUGIN2(iconeditorplugin, IconEditorPlugin)
+// Q_EXPORT_PLUGIN2(iconeditorplugin, IconEditorPlugin)
