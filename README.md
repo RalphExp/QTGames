@@ -1,1 +1,1 @@
-# QtGames
+# Qt4
